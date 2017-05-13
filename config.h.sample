@@ -1,7 +1,17 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-#define WIFI_SSID "SSID"
-#define WIFI_PASS "password"
+//#define DEBUG_SERIAL 1
+#define DEVICE_ID "1"
+
+#define WIFI_SSID "ssid"
+#define WIFI_PASS "passw"
+
+#define MQTT_SERVER "mqtt.dev"
+#define MQTT_PORT 1883
+#define MQTT_CLIENT_NAME DEVICE_ID
+#define MQTT_USER "esp8266-plant"
+#define MQTT_PASS "mqtt_pass"
+#define MQTT_TOPIC "plant"
 
 #endif
